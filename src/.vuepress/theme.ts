@@ -13,7 +13,8 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/cuteDog.svg",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -37,7 +38,7 @@ export default hopeTheme({
     medias: {
       GitHub: "https://github.com/MaJun1203/",
       QQ: "https://example.com",
-      Wechat: "/homePage/wechar.jpg",
+      Wechat: "/blog/homePage/wechat.jpg",
       Zhihu: "https://example.com",
       VuePressThemeHope: {
         icon: "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -64,6 +65,7 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
+
 
     searchPro: {
       // 索引全部内容

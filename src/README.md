@@ -2,13 +2,13 @@
 home: true
 layout: BlogHome
 icon: home
-title: 主页
+title: 主页 | 人生长恨水长东
 
-heroImage: /cutedog.jpg
+heroImage: /cuteDog.jpg
 heroText: 人生长恨水长东
 heroFullScreen: false
 tagline: MaJun's Personal Website
-footer: 
+footer:
 ---
 
 <!--

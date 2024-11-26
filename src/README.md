@@ -13,7 +13,7 @@ bgImage: /homePage/背景3.jpg
 #   background-repeat: no-repeat; /* 防止背景图重复 */
 #   background-attachment: fixed; /* 背景图固定不动，滚动时背景不动 */
 heroFullScreen: false
-tagline: <div class="typing">MaJun's Personal Website
+tagline: <div class="typing">MaJun's Personal Website</div>
 
 footer:
 ---

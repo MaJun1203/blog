@@ -3,6 +3,9 @@
 data: 2024-11-22
 catagory:
   - 数据库
+tag:
+  - 数据库
+  - mysql
 ---
 
 ## SQL

@@ -6,8 +6,15 @@ title: 主页 | 人生长恨水长东
 
 heroImage: /cuteDog.jpg
 heroText: 人生长恨水长东
+bgImage: /homePage/背景3.jpg
+# bgImageStyle: |
+#   background-size: cover; /* 让背景图覆盖整个页面 */
+#   background-position: center; /* 背景图居中 */
+#   background-repeat: no-repeat; /* 防止背景图重复 */
+#   background-attachment: fixed; /* 背景图固定不动，滚动时背景不动 */
 heroFullScreen: false
-tagline: MaJun's Personal Website
+tagline: <div class="typing">MaJun's Personal Website
+
 footer:
 ---
 

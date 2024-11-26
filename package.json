@@ -21,6 +21,7 @@
     "vuepress-theme-hope": "2.0.0-rc.59"
   },
   "dependencies": {
-    "@vercel/blob": "^0.26.0"
+    "@vercel/blob": "^0.26.0",
+    "vue-audio-player": "^0.0.2"
   }
 }

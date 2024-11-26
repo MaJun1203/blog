@@ -1,5 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
+
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
@@ -11,12 +12,31 @@ export default hopeTheme({
     url: "https://majun1203.github.io/blog/",
   },
 
+  //设置深浅主题
+  darkmode:"switch",
+
+  //设置打印按钮
+  print: false,
+
+  //设置全屏按钮
+  fullscreen: true,
+
+  //纯净模式(纯文档网站)
+  //pure: true,
+
+  // 默认为 GitHub. 同时也可以是一个完整的 URL
+  repo: "https://github.com/MaJun1203/blog",
+  // 自定义仓库链接文字。默认从 `repo` 中自动推断为
+  // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"
+  repoLabel: "GitHub",
+  //是否在导航栏内显示仓库链接，默认为 `true`
+  repoDisplay: true,
+
   iconAssets: "fontawesome-with-brands",
 
   // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
   logo: "/cuteDog.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
 
@@ -37,9 +57,8 @@ export default hopeTheme({
     intro: "/intro.html",
     medias: {
       GitHub: "https://github.com/MaJun1203/",
-      QQ: "https://example.com",
+      QQ: "/blog/homePage/qq.jpg",
       Wechat: "/blog/homePage/wechat.jpg",
-      Zhihu: "https://example.com",
       VuePressThemeHope: {
         icon: "https://theme-hope-assets.vuejs.press/logo.svg",
         link: "https://theme-hope.vuejs.press",
@@ -50,7 +69,7 @@ export default hopeTheme({
   // 加密配置
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
+      "/demo/encrypt.html": ["041203"],
     },
   },
 

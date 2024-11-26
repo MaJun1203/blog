@@ -2,9 +2,9 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
+  //"/demo/",
   {
-    text: "博文",
+    text: "笔记",
     icon: "pen-to-square",
     prefix: "/posts/",
     children: [
@@ -14,7 +14,7 @@ export default navbar([
         prefix: "MySQL/",
         children: [
           { text: "MySQL基础", icon: "pen-to-square", link: "MySQLBase" },
-          { text: "MySQL进阶", icon: "pen-to-square", link: "MySQLAdvanced" },
+          //{ text: "MySQL进阶", icon: "pen-to-square", link: "MySQLAdvanced" },
         ],
       },
       {
@@ -23,14 +23,14 @@ export default navbar([
         prefix: "JavaWeb/",
         children: [
           {
-            text: "04_XML_Tomcat_HTTP",
+            text: "XML_Tomcat_HTTP",
             icon: "pen-to-square",
-            link: "04_XML_Tomcat_HTTP",
+            link: "XML_Tomcat_HTTP",
           },
           {
-            text: "香蕉 2",
+            text: "Servlet",
             icon: "pen-to-square",
-            link: "2",
+            link: "Servlet",
           },
         ],
       },

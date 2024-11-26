@@ -27,11 +27,11 @@ export default navbar([
             icon: "pen-to-square",
             link: "XML_Tomcat_HTTP",
           },
-          {
-            text: "Servlet",
-            icon: "pen-to-square",
-            link: "Servlet",
-          },
+          // {
+          //   text: "Servlet",
+          //   icon: "pen-to-square",
+          //   link: "Servlet",
+          // },
         ],
       },
     ],
